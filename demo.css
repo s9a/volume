@@ -1,0 +1,23 @@
+::selection { background: var(--tape-black, black); color: var(--tape-green, lime) }
+:focus { outline-color: var(--tape-green, black) }
+html { font-family: sans-serif; background: papayawhip }
+body { margin: 0 auto }
+.font-lax { font: inherit }
+.pad-0 { padding: 0 }
+.pad-1 { padding: 1rem }
+.pad-2 { padding: 2rem }
+.pad-3 { padding: 3rem }
+.hold-left { margin-left: 1rem }
+.m-zero { margin: 0 }
+.m-auto { margin: auto }
+.m-up { margin-top: 1rem }
+.m-drop { margin-bottom: 1rem }
+.m-down { margin-bottom: 4rem }
+.maxw-2ch { max-width: 1em; max-width: 2ch; }
+.maxw-25em { max-width: 25em }
+.list-none { list-style: none }
+.flex-down { display: flex; flex-flow: column }
+.flex-up { display: flex; flex-flow: column-reverse }
+.order-before { order: -1 }
+.order-after { order: 1 }
+.tx-end { text-align: end }
