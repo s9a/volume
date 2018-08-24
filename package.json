@@ -1,6 +1,6 @@
 {
   "name": "@s9a/volume",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pump up font v o l u m e",
   "main": "volume.css",
   "license": "ISC",
