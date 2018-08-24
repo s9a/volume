@@ -1,0 +1,38 @@
+{
+  "name": "@s9a/volume",
+  "version": "0.0.0",
+  "description": "Pump up font v o l u m e",
+  "main": "volume.css",
+  "license": "ISC",
+  "homepage": "https://s9a.github.io/volume/",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s9a/volume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s9a/volume/issues"
+  },
+  "keywords": [
+    "functional-css",
+    "functional css",
+    "composable css",
+    "letter-spacing",
+    "word-spacing",
+    "line-height",
+    "responsive",
+    "typography",
+    "composable",
+    "font-size",
+    "tracking",
+    "posters",
+    "poster",
+    "simple",
+    "design",
+    "cool",
+    "rwd",
+    "css"
+  ]
+}
