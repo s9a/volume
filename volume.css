@@ -1,0 +1,121 @@
+.volume-0 { font-size: 0 }
+.volume-1 { font-size: var(--volume-1) }
+.volume-2 { font-size: var(--volume-2) }
+.volume-3 { font-size: var(--volume-3) }
+.volume-4 { font-size: var(--volume-4) }
+.volume-5 { font-size: var(--volume-5) }
+.volume-6 { font-size: var(--volume-6) }
+.volume-7 { font-size: var(--volume-7) }
+.volume-8 { font-size: var(--volume-8) }
+.volume-9 { font-size: var(--volume-9) }
+.volume-10 { font-size: var(--volume-10) }
+.volume-unset { font-size: unset }
+
+.cram-0 { letter-spacing: 0 }
+.cram-1 { letter-spacing: var(--cram-1) }
+.cram-2 { letter-spacing: var(--cram-2) }
+.cram-3 { letter-spacing: var(--cram-3) }
+.cram-4 { letter-spacing: var(--cram-4) }
+.cram-5 { letter-spacing: var(--cram-5) }
+.cram-6 { letter-spacing: var(--cram-6) }
+.cram-7 { letter-spacing: var(--cram-7) }
+.cram-8 { letter-spacing: var(--cram-8) }
+.cram-9 { letter-spacing: var(--cram-9) }
+.cram-10 { letter-spacing: var(--cram-10) }
+.cram-unset { letter-spacing: unset }
+
+.sustain-0 { letter-spacing: 0 }
+.sustain-1 { letter-spacing: var(--sustain-1) }
+.sustain-2 { letter-spacing: var(--sustain-2) }
+.sustain-3 { letter-spacing: var(--sustain-3) }
+.sustain-4 { letter-spacing: var(--sustain-4) }
+.sustain-5 { letter-spacing: var(--sustain-5) }
+.sustain-6 { letter-spacing: var(--sustain-6) }
+.sustain-7 { letter-spacing: var(--sustain-7) }
+.sustain-8 { letter-spacing: var(--sustain-8) }
+.sustain-9 { letter-spacing: var(--sustain-9) }
+.sustain-10 { letter-spacing: var(--sustain-10) }
+.sustain-unset { letter-spacing: unset }
+
+.breathe-0 { word-spacing: 0 }
+.breathe-1 { word-spacing: var(--breathe-1) }
+.breathe-2 { word-spacing: var(--breathe-2) }
+.breathe-3 { word-spacing: var(--breathe-3) }
+.breathe-4 { word-spacing: var(--breathe-4) }
+.breathe-5 { word-spacing: var(--breathe-5) }
+.breathe-6 { word-spacing: var(--breathe-6) }
+.breathe-7 { word-spacing: var(--breathe-7) }
+.breathe-8 { word-spacing: var(--breathe-8) }
+.breathe-9 { word-spacing: var(--breathe-9) }
+.breathe-10 { word-spacing: var(--breathe-10) }
+.breathe-unset { word-spacing: unset }
+
+.rhythm-0 { line-height: 0 }
+.rhythm-1 { line-height: var(--rhythm-1) }
+.rhythm-2 { line-height: var(--rhythm-2) }
+.rhythm-3 { line-height: var(--rhythm-3) }
+.rhythm-4 { line-height: var(--rhythm-4) }
+.rhythm-5 { line-height: var(--rhythm-5) }
+.rhythm-6 { line-height: var(--rhythm-6) }
+.rhythm-7 { line-height: var(--rhythm-7) }
+.rhythm-8 { line-height: var(--rhythm-8) }
+.rhythm-9 { line-height: var(--rhythm-9) }
+.rhythm-10 { line-height: var(--rhythm-10) }
+.rhythm-unset { line-height: unset }
+
+:root {
+  --volume-1: calc(.5rem + .5vw + .1vh);
+  --volume-2: calc(2 * var(--volume-1));
+  --volume-3: calc(3 * var(--volume-1));
+  --volume-4: calc(4 * var(--volume-1));
+  --volume-5: calc(5 * var(--volume-1));
+  --volume-6: calc(6 * var(--volume-1));
+  --volume-7: calc(7 * var(--volume-1));
+  --volume-8: calc(8 * var(--volume-1));
+  --volume-9: calc(9 * var(--volume-1));
+  --volume-10: calc(10 * var(--volume-1));
+
+  --rhythm-1: .625;
+  --rhythm-2: .875;
+  --rhythm-3: 1;
+  --rhythm-4: 1.125;
+  --rhythm-5: 1.25;
+  --rhythm-6: 1.375;
+  --rhythm-7: 1.5;
+  --rhythm-8: 1.625;
+  --rhythm-9: 1.75;
+  --rhythm-10: 2;
+
+  --cram-1: -.05ch;
+  --cram-2: -.10ch;
+  --cram-3: -.15ch;
+  --cram-4: -.20ch;
+  --cram-5: -.25ch;
+  --cram-6: -.30ch;
+  --cram-7: -.35ch;
+  --cram-8: -.40ch;
+  --cram-9: -.45ch;
+  --cram-10: -.50ch;
+
+  --sustain-1: .1ch;
+  --sustain-2: .2ch;
+  --sustain-3: .3ch;
+  --sustain-4: .4ch;
+  --sustain-5: .5ch;
+  --sustain-6: .6ch;
+  --sustain-7: .7ch;
+  --sustain-8: .8ch;
+  --sustain-9: .9ch;
+  --sustain-10: 1ch;
+
+  --breathe-1: .05ch;
+  --breathe-2: calc(2 * var(--breathe-1));
+  --breathe-3: calc(3 * var(--breathe-1));
+  --breathe-4: calc(5 * var(--breathe-1));
+  --breathe-5: calc(8 * var(--breathe-1));
+  --breathe-6: calc(13 * var(--breathe-1));
+  --breathe-7: calc(21 * var(--breathe-1));
+  --breathe-8: calc(34 * var(--breathe-1));
+  --breathe-9: calc(55 * var(--breathe-1));
+  --breathe-10: calc(89 * var(--breathe-1));
+}
